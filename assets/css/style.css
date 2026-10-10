@@ -1,0 +1,22 @@
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxDuws2YAyYmCfi60wZlZ5fe38ou0f4QzXPSCLUpx_eA&s=10");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+     overflow-y: scroll;
+    
+}
+
+
+.spinner{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.6);
+}
