@@ -381,7 +381,7 @@ async function oncheck(ele){
       }
       let data= await res.json()
       let idx = state.todoArr.findIndex(e => e.id === check_id)
-      state.todoArr.iscompleted = checkobj.iscompleted
+      state.todoArr[idx].iscompleted = checkobj.iscompleted
    }
    catch(err){
      cl(err)
